@@ -1,0 +1,36 @@
+'.source.js':
+  'Muffin Define':
+    'prefix': 'muff-define',
+    'body': """
+    $M.define(function () {
+    $2
+    }).runOnPageLoad();
+    """
+  'Muffin Define with Name':
+    'prefix': 'muff-define-name',
+    'body': """
+    $M.define('${1:ModulName}', function () {
+    $2
+    }).runOnPageLoad();
+    """
+  'Muffin Define with Param':
+    'prefix': 'muff-define-param',
+    'body': """
+    $M.define('${1:ModulName}', ['${2:Param}'], function (${2:Param}) {
+    $3
+    }).runOnPageLoad();
+    """
+  'Muffin Define Run':
+    'prefix': 'muff-define-run',
+    'body': """
+    $M.define('${1:ModulName}', function () {
+    $2
+    }).run();
+    """
+  'Muffin Factory':
+    'prefix': 'muff-factory',
+    'body': """
+    $M.factory('${1:ModulName}', function () {
+    $2
+    });
+    """
