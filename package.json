@@ -5,7 +5,7 @@
   "description": "Collection of snippets for define modules with Muffin ",
   "keywords": [
     ],
-  "repository": "https://github.com/atom/atom-muffin-snippets",
+  "repository": "https://github.com/mantovanig/atom-muffin-snippets.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
