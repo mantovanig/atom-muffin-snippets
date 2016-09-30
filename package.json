@@ -1,15 +1,13 @@
 {
   "name": "atom-muffin-snippets",
   "main": "./lib/atom-muffin-snippets",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Collection of snippets for define modules with Muffin ",
-  "keywords": [
-    ],
+  "keywords": [],
   "repository": "https://github.com/mantovanig/atom-muffin-snippets.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
